@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB515DBA2C02017B007D1C00 /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB515DB92C02017B007D1C00 /* Recents.swift */; };
+		CB515DBC2C02018D007D1C00 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB515DBB2C02018D007D1C00 /* Search.swift */; };
+		CB515DBE2C02019B007D1C00 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB515DBD2C02019B007D1C00 /* Graphs.swift */; };
+		CB515DC02C0201A4007D1C00 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB515DBF2C0201A4007D1C00 /* Settings.swift */; };
+		CB515DC52C033C17007D1C00 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB515DC42C033C17007D1C00 /* AddExpenseView.swift */; };
 		CB6967E92BEF7A0500729F67 /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6967E82BEF7A0500729F67 /* Expense_TrackerApp.swift */; };
-		CB6967EB2BEF7A0500729F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6967EA2BEF7A0500729F67 /* ContentView.swift */; };
 		CB6967ED2BEF7A0600729F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6967EC2BEF7A0600729F67 /* Assets.xcassets */; };
 		CB6967F02BEF7A0600729F67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6967EF2BEF7A0600729F67 /* Preview Assets.xcassets */; };
 		CB6967FA2BEF7A0600729F67 /* Expense_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6967F92BEF7A0600729F67 /* Expense_TrackerTests.swift */; };
 		CB6968042BEF7A0600729F67 /* Expense_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6968032BEF7A0600729F67 /* Expense_TrackerUITests.swift */; };
 		CB6968062BEF7A0600729F67 /* Expense_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6968052BEF7A0600729F67 /* Expense_TrackerUITestsLaunchTests.swift */; };
+		CB6968172BEF7F4200729F67 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6968162BEF7F4200729F67 /* LoginView.swift */; };
+		CB69681A2BEF866000729F67 /* UICommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6968192BEF866000729F67 /* UICommon.swift */; };
+		CB69681C2BF0C9D000729F67 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69681B2BF0C9D000729F67 /* Expenses.swift */; };
+		CB69681E2BF0CAEC00729F67 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69681D2BF0CAEC00729F67 /* Category.swift */; };
+		CB6968202BF0CC7E00729F67 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69681F2BF0CC7E00729F67 /* ExpensesView.swift */; };
+		CB69685A2BF4AF3200729F67 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6968592BF4AF3200729F67 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB515DB92C02017B007D1C00 /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		CB515DBB2C02018D007D1C00 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		CB515DBD2C02019B007D1C00 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		CB515DBF2C0201A4007D1C00 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CB515DC42C033C17007D1C00 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		CB6967E52BEF7A0500729F67 /* Expense-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6967E82BEF7A0500729F67 /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
-		CB6967EA2BEF7A0500729F67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB6967EC2BEF7A0600729F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6967EF2BEF7A0600729F67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CB6967F52BEF7A0600729F67 /* Expense-TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expense-TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,12 @@
 		CB6967FF2BEF7A0600729F67 /* Expense-TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expense-TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6968032BEF7A0600729F67 /* Expense_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerUITests.swift; sourceTree = "<group>"; };
 		CB6968052BEF7A0600729F67 /* Expense_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB6968162BEF7F4200729F67 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CB6968192BEF866000729F67 /* UICommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICommon.swift; sourceTree = "<group>"; };
+		CB69681B2BF0C9D000729F67 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		CB69681D2BF0CAEC00729F67 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CB69681F2BF0CC7E00729F67 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		CB6968592BF4AF3200729F67 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB515DB62C020151007D1C00 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				CB515DB92C02017B007D1C00 /* Recents.swift */,
+				CB515DBB2C02018D007D1C00 /* Search.swift */,
+				CB515DBD2C02019B007D1C00 /* Graphs.swift */,
+				CB515DBF2C0201A4007D1C00 /* Settings.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		CB515DC12C033BE1007D1C00 /* AddingView */ = {
+			isa = PBXGroup;
+			children = (
+				CB515DC42C033C17007D1C00 /* AddExpenseView.swift */,
+			);
+			path = AddingView;
+			sourceTree = "<group>";
+		};
 		CB6967DC2BEF7A0500729F67 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +133,10 @@
 		CB6967E72BEF7A0500729F67 /* Expense-Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				CB6968182BEF863700729F67 /* UICommon */,
+				CB6968132BEF7AC600729F67 /* View */,
+				CB6968122BEF7AC100729F67 /* Model */,
 				CB6967E82BEF7A0500729F67 /* Expense_TrackerApp.swift */,
-				CB6967EA2BEF7A0500729F67 /* ContentView.swift */,
 				CB6967EC2BEF7A0600729F67 /* Assets.xcassets */,
 				CB6967EE2BEF7A0600729F67 /* Preview Content */,
 			);
@@ -125,6 +166,51 @@
 				CB6968052BEF7A0600729F67 /* Expense_TrackerUITestsLaunchTests.swift */,
 			);
 			path = "Expense-TrackerUITests";
+			sourceTree = "<group>";
+		};
+		CB6968122BEF7AC100729F67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB69681B2BF0C9D000729F67 /* Expenses.swift */,
+				CB69681D2BF0CAEC00729F67 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB6968132BEF7AC600729F67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB515DC12C033BE1007D1C00 /* AddingView */,
+				CB515DB62C020151007D1C00 /* TabView */,
+				CB6968152BEF7E2A00729F67 /* Home */,
+				CB6968142BEF7E2100729F67 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB6968142BEF7E2100729F67 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB6968162BEF7F4200729F67 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CB6968152BEF7E2A00729F67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB69681F2BF0CC7E00729F67 /* ExpensesView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB6968182BEF863700729F67 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				CB6968192BEF866000729F67 /* UICommon.swift */,
+				CB6968592BF4AF3200729F67 /* InputView.swift */,
+			);
+			path = UICommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6967EB2BEF7A0500729F67 /* ContentView.swift in Sources */,
+				CB515DBC2C02018D007D1C00 /* Search.swift in Sources */,
+				CB69681C2BF0C9D000729F67 /* Expenses.swift in Sources */,
+				CB515DBE2C02019B007D1C00 /* Graphs.swift in Sources */,
+				CB515DC52C033C17007D1C00 /* AddExpenseView.swift in Sources */,
+				CB69685A2BF4AF3200729F67 /* InputView.swift in Sources */,
+				CB6968202BF0CC7E00729F67 /* ExpensesView.swift in Sources */,
+				CB69681E2BF0CAEC00729F67 /* Category.swift in Sources */,
+				CB515DBA2C02017B007D1C00 /* Recents.swift in Sources */,
+				CB6968172BEF7F4200729F67 /* LoginView.swift in Sources */,
+				CB69681A2BEF866000729F67 /* UICommon.swift in Sources */,
+				CB515DC02C0201A4007D1C00 /* Settings.swift in Sources */,
 				CB6967E92BEF7A0500729F67 /* Expense_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

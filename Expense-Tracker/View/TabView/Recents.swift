@@ -9,7 +9,37 @@ import SwiftUI
 
 struct Recents: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader{
+            let size = $0.size
+            NavigationStack{
+                ScrollView(.vertical){
+                    LazyVStack(spacing: 10, pinnedViews: [.sectionHeaders]){
+                        Section{
+                            
+                        } header: {
+                            HeaderView(size)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@ViewBuilder
+func HeaderView(_ size: CGSize) -> some View {
+    VStack(alignment: .leading,spacing: 5, content: {
+        Text("Welcome").font(.title.bold())
+    }).frame(maxWidth: .infinity ,alignment: .leading).overlay(alignment: .trailing, content: {
+        NavigationLink{
+            AddExpenseView()
+        } label: {
+            Image(systemName: "plus").font(.title3).fontWeight(.semibold)
+        }
+    })
+    .padding(.bottom,5)
+    .background {
+        Rectangle().fill(.ultraThinMaterial).padding(.horizontal,-15).padding(.top, -(safeArea.top + 15))
     }
 }
 

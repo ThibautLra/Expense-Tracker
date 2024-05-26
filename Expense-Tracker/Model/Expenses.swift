@@ -6,13 +6,21 @@
 //
 
 import SwiftUI
+import SwiftData
 
-struct Expenses: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+@Model
+class Expenses {
+    var title: String
+    var subtitle: String
+    var category: Category?
+    var date: Date
+    var amount: Double
+    
+    init(title: String, subtitle: String, category: Category? = nil, date: Date, amount: Double){
+        self.title = title
+        self.subtitle = subtitle
+        self.category = category
+        self.date = date
+        self.amount = amount
     }
-}
-
-#Preview {
-    Expenses()
 }
